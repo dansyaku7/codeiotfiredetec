@@ -10,7 +10,7 @@
 
 // ================== PENGATURAN SENSOR (WAJIB UBAH!) ==================
 // --- MAC ADDRESS GATEWAY/BELL TUJUAN ---
-uint8_t gatewayAddress[] = {0x48, 0xE7, 0x29, 0x6D, 0x98, 0x59}; // GANTI SAMA MAC ADDRESS SETIAP BELL //
+uint8_t gatewayAddress[] = {0x48, 0xE7, 0x29, 0x6D, 0x98, 0x59}; // GANTI SAMA MAC ADDRESS SETIAP BELL / GATEWAY //
 
 // --- PENGATURAN PIN & NAMA SENSOR ---
 #define DHTPIN 4
