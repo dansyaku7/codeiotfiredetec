@@ -17,7 +17,7 @@ const char* registerDeviceUrl = "https://fire-detec.vercel.app/api/register-devi
 #define RELAY_PIN 14
 #define RELAY_ON  LOW
 #define RELAY_OFF HIGH
-uint8_t panelAddress[] = {0x08, 0xF9, 0xE0, 0x75, 0xDC, 0xC7}; 
+uint8_t panelAddress[] = {0x08, 0xF9, 0xE0, 0x75, 0xDC, 0xC7}; // ganti sesuai kmac address panel //
 const float SUHU_BATAS_ALARM = 35.0;
 
 const long SILENCE_DURATION = 60000;
